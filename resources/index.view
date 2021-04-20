@@ -1,0 +1,36 @@
+<svg>
+  <image id="imageBackground" />
+  <svg class="mainBlock">
+      <text id="time1Shadow" />
+      <text id="time1" />
+      <text id="time2Shadow" />  
+      <text id="time2" />
+      <text id="ampmShadow" />
+      <text id="ampm" />
+      <text id ="ampm2Shadow" />
+      <text id="ampm2" />
+      <text id="myTZ" />
+      <text id="TZ2" />
+      <text id="myCal" pointer-events="visible"/>
+    
+      <image id="myFeet" fill="green" display = "inline" x = "5%" y="53%" width = "32" height = "32" href = "steps.png"/>
+      <text id="mySteps" pointer-events="visible" />
+      <text id="myStepsLabel" pointer-events="visible" />
+    
+      
+      <text id="myBeats" pointer-events="visible" />
+      <svg>
+      <animate attributeName="opacity" begin="load" from="1" to="0"  repeatCount = "indefinite" dur = "2" final="restore" easing="ease-in" />
+      <image id="myHeart" fill="red" display = "inline" x = "34%" y="54%" width = "25" height = "25" href = "heart.png"/>
+      </svg>
+      <text id="myBeatsLabel" pointer-events="visible" />
+    
+      <text id="myCalories" pointer-events="visible" />
+      <image id="myBurn" fill="aquamarine" display = "inline" x = "50%" y="53%" width = "30" height = "30" href = "calories.png"/>
+      <text id="myCaloriesLabel" pointer-events="visible" />
+    
+      <text id="myKm" pointer-events="visible" />
+      <image id="myDistance" fill="royalblue" display = "inline" x = "71%" y="53%" width = "30" height = "30" href = "distance.png"/>
+      <text id="myKmLabel" pointer-events="visible" />
+   </svg>
+</svg>

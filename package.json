@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "c422e397-ea03-4f64-84af-e01e4a81b328",
+    "appType": "clockface",
+    "appDisplayName": "Dual Time",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "vulcan",
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Dual Time"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

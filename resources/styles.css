@@ -1,0 +1,229 @@
+#background {
+  viewport-fill: #444444;
+  
+  width: 100%;
+  height: 100%;
+}
+
+#time1 {
+  font-size: 64;
+  font-family: System-Light;
+  font-weight: regular;
+  text-anchor: middle;
+  x: 50%;
+  y: 45%;
+  fill: white;
+  text-length: 32;
+}
+
+#time1Shadow {
+  font-size: 90;
+  font-family: System-Bold;
+  font-weight: regular;
+  text-anchor: middle;
+  x: 50%+2;
+  y: 30%+2;
+  fill: black;
+  text-length: 32;
+}
+
+#time2 {
+  font-size: 30;
+  font-family: System-Bold;
+  font-weight: regular;
+  x: 50%;
+  y: 95%;
+  fill: white;
+  text-length: 32;
+  text-anchor: middle;
+}
+
+
+#time2Shadow{
+  font-size: 48;
+  font-family: System-Bold;
+  font-weight: regular;
+  x: 50%+2;
+  y: 85%+2;
+  fill: black;
+  text-length: 32;
+  text-anchor: middle;
+ 
+}
+#myTZ {
+  font-size: 24;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 43%;
+  fill: black;
+}
+
+#ampm {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: start;
+  x:83%;
+  y:31%;
+  fill: white;
+  display: none;
+}
+
+#ampmShadow {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: start;
+  x:83%+2;
+  y:31%+2;
+  fill: black;
+  display: none;
+}
+
+#ampm2 {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: start;
+  x:83%;
+  y:85%;
+  fill: white;
+  display: none;
+}
+
+#ampm2Shadow {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: start;
+  x:83%+2;
+  y:85%+2;
+  fill: black;
+  display: none;
+}
+
+#TZ2 {
+  font-size: 24;
+  font-family: System-Bold;
+  text-length: 20;
+  text-anchor: middle;
+  x: 50%;
+  y: 95%;
+  fill: black;
+  }
+
+#myCal {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 20%;
+  fill: white;
+}
+
+#mySteps {
+  font-size: 18;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 21%;
+  y: 59%;
+  fill: white;
+}
+
+#myBeats {
+  font-size: 18;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 45%;
+  y: 59%;
+  fill: white;
+}
+
+
+#myCalories {
+  font-size: 18;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 64%;
+  y: 59%;
+  fill: white;
+}
+
+#myKm {
+  font-size: 18;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 86%;
+  y: 59%;
+  fill: white;
+}
+
+
+#myStepsLabel{
+  
+  font-size: 12;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 21%;
+  y: 64%;
+  fill: white;
+}
+
+#myBeatsLabel{
+  
+  font-size: 12;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 45%;
+  y: 64%;
+  fill: white;
+}
+
+#myCaloriesLabel{
+  
+  font-size: 12;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 64%;
+  y: 64%;
+  fill: white;
+}
+
+#myKmLabel{
+  
+  font-size: 12;
+  font-family: System-Light;
+  text-length: 32;
+  text-anchor: middle;
+  x: 86%;
+  y: 64%;
+  fill: white;
+}
+
+
+#myHeart {
+  text-anchor: middle;  
+}
+
+
+#myFeet {
+  text-anchor: middle;  
+}
+
+#myBurn {
+  text-anchor: middle;  
+}
+
+#myDistance {
+  text-anchor: middle;  
+}
