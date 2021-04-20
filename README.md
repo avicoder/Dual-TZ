@@ -1,4 +1,4 @@
-## Dual-TZ
+## Dual TZ
 
 **Dual Timezone Fitbit Clock face**
 
